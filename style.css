@@ -1,22 +1,22 @@
 body {
   background-color: #de8971;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: grey;
   font-size: 16px;
   line-height: 24px
 }
 h1 {
-  font-family: 'Itim', cursive;
+  font-family: 'Montserrat', sans-serif;
   color: #7b6079;
   font-size: 48px;
 }
 h2 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #3edbf0;
   font-size: 32px;
 }
 h3 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #cf0000;
   font-size: 24px;
 }
