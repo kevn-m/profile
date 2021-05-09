@@ -1,31 +1,32 @@
 body {
-  background-color: #de8971;
+  background-color: #393e46;
   font-family: 'Montserrat', sans-serif;
-  color: grey;
-  font-size: 16px;
-  line-height: 24px
+  color: #494949;
+  font-size: 100%;
+  line-height: 170%;
 }
 h1 {
   font-family: 'Montserrat', sans-serif;
-  color: #7b6079;
-  font-size: 48px;
+  color: #00adb5;
+  font-size: 200%;
 }
 h2 {
   font-family: 'Montserrat', sans-serif;
-  color: #3edbf0;
-  font-size: 32px;
+  color: #aad8d3;
+  font-size: 150%;
+  font-weight: lighter;
 }
 h3 {
   font-family: 'Montserrat', sans-serif;
-  color: #cf0000;
-  font-size: 24px;
+  color: #aad8d3;
+  font-size: 2vw;
 }
 a {
   color: #0061a8;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .container {
-  width: 500px;
+  width: 550px;
   margin: 40px auto;
   /*text-align: center;
   border-radius: 4px;*/
@@ -36,6 +37,7 @@ a {
     width: 500px;
     margin: 40px auto;
   }
+
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
@@ -50,14 +52,7 @@ a {
     width: 300px;
     margin: 40px auto;
   }
-  h1 {
-    font-size: 24px;
-    line-height: 50px;
-  }
-  h2 {
-    font-size: 18px;
-    line-height: 50px;
-  }
+
   .list-inline {
   padding: 0px;
   font-size: 10px;
@@ -96,14 +91,15 @@ a {
   /*text-align: center;*/
 }
 .btn-blue {
-  background-color: blue;
+  background-color: #00adb5;
   border-radius: 4px;
   color: white;
   padding: 10px 20px;
   margin: 10px 20px;
 }
 .btn-blue:hover {
-  background-color: red;
+  background-color: #aad8d3;
+  transition-delay: 0.1s;
 }
 .list-inline {
   padding: 0px;
@@ -115,7 +111,17 @@ a {
   font-size: 36px;
   width: 0px auto;
   margin: 0px auto;
+  color: #00adb5;
 }
+
+.fab:hover {
+ color: #aad8d3;
+}
+
 #introduction {
   margin-bottom: 40px;
+ }
+
+ #intro-paragraph {
+  padding-bottom: 10px;
  }
